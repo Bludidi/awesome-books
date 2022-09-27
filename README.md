@@ -20,7 +20,6 @@
 
 ** this project runs on any browser
 
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -37,7 +36,11 @@ Any browser
 - Twitter: [@twitterhandle](https://twitter.com/@john_the_web_dev)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/johnkioko)
 
-👤
+
+👤 **Brian Ludidi** 
+
+- GitHub [@Bludidi] (https://github.com/Bludidi)
+- LinkedIn [Brian Ludidi](www.linkedin.com/in/brian-ludidi-92754174) 
 
 ## 🤝 Contributing
 
