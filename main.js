@@ -39,12 +39,17 @@ bookList.forEach(populate);
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
+  const alert = document.getElementById('report');
+  function displayAlert() {
+    alert.style.display = 'block';
+  }
   if (title.value !== '' && author.value !== '') {
     addBook();
     populate(book);
     form.reset();
   } else {
-    alert('Please enter a title and author');
+    displayAlert();
+    window.setTimeout(function(){location.reload()}, 3000);
+    };
   }
-});
-
+);
