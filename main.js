@@ -49,8 +49,8 @@ form.addEventListener('submit', (e) => {
     form.reset();
   } else {
     displayAlert();
-    window.setTimeout(()=>{
-    location.reload()
+    window.setTimeout(() => {
+      window.location.reload()
     } , 3000)
     };
   }
