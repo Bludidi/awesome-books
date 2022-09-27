@@ -51,6 +51,6 @@ form.addEventListener('submit', (e) => {
     displayAlert();
     window.setTimeout(() => {
       window.location.reload();
-  }, 3000)
-}
-  }, );
+    }, 3000);
+  }
+});
