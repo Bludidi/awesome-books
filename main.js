@@ -50,8 +50,7 @@ form.addEventListener('submit', (e) => {
   } else {
     displayAlert();
     window.setTimeout(() => {
-      window.location.reload()
-    } , 3000)
-    };
-  }
-);
+      window.location.reload();
+  }, 3000)
+}
+  }, );
