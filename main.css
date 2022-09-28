@@ -1,7 +1,107 @@
-#report {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Comic Neue', cursive;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.page {
   display: none;
-  border: 1px solid #000;
-  width: fit-content;
-  padding: 5px;
-  margin-top: 3px;
+}
+
+.active {
+  display: block;
+}
+
+#main {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bookForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 2em;
+}
+
+input {
+  margin: 2px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.add {
+  margin-top: 5px;
+  margin-right: -10em;
+  font-weight: 700;
+  border-radius: 5px;
+  font-family: 'Comic Neue', cursive;
+  padding: 6px;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .add {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: center;
+  }
+}
+
+.awesome-books {
+  margin-bottom: 40px;
+}
+
+.author {
+  border-radius: 3px;
+}
+
+.title {
+  border-radius: 3px;
+}
+
+#title,
+#author {
+  font-size: 20px;
+}
+
+#author {
+  padding-left: 5px;
+}
+
+.delete {
+  padding: 6px 12px;
+  box-shadow: 2px 2px #000;
+}
+
+.books {
+  border: solid 2px #000;
+  margin-top: 5rem;
+  margin-bottom: 0;
+}
+
+.bookDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.newBook:nth-child(odd) {
+  background-color: rgb(213, 213, 213);
+}
+
+.bookTitleAuthor {
+  font-size: 18px;
 }
