@@ -1,12 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Portofolio Project
+# Awesome Books
 
-> This is a basic web project that allows users to add and Remove books from a list. 
+> This is a SPA application that allows users to add and Remove books from a list. 
 
 ## Built With
 
 - Html
+- CSS
 - Javascript
 - Git and Github
 

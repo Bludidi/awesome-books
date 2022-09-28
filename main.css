@@ -40,7 +40,7 @@ body {
 }
 
 .navbar-header {
-  margin-left: 5em;
+  margin-left: 5px;
   text-align: center;
 }
 
@@ -58,7 +58,7 @@ footer {
   bottom: 0;
   width: 80%;
   position: fixed;
-  padding-left: 5em;
+  padding-left: 5px;
 }
 
 .contact-head {
