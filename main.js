@@ -26,7 +26,6 @@ document.querySelector('.bookForm').addEventListener('submit', (e) => {
     alert('Please enter book tile and author');
   }
 });
-
 // EVENT DELETE
 document.querySelector('.books').addEventListener('click', (e) => {
   if (e.target.className === 'delete') {
