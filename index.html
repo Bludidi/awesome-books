@@ -1,40 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Awesome Books</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav class="navbar">
+          <h2 class="navbar-header">Awesome Books</h2>
+          <ul class="nav-item">
+            <li><a href="#" data-target="list" class="nav-link">List</a></li>
+            <li>
+              <a href="#" data-target="add-new" class="nav-link">Add Book</a>
+            </li>
+            <li>
+              <a href="#" data-target="contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="main.css" />
-  <title>Awesome Books</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet" />
-</head>
+      <div class="date"></div>
 
-<body>
-  <div class="wrapper">
-    <main id="main">
-      <div>
-        <h1 class="awesomeBooks">All Awesome Books</h1>
-      </div>
+      <main id="main">
+    
+        <section class="page active" id="list">
+          <div>
+            <h1 class="awesome-books">All Awesome Books</h1>
+          </div>
 
-      <div class="books">
+          <div class="books"></div>
+        </section>
+        <section class="page" id="add-new">
+          <form class="bookForm">
+            <h2>Add a new book</h2>
+            <input
+              type="text"
+              name="title"
+              class="title"
+              id="title"
+              placeholder="Title"
+            />
 
-      </div>
+            <input
+              type="text"
+              id="author"
+              name="author"
+              class="author"
+              placeholder="Author"
+            />
 
-      <form class="bookForm">
-        <h2>Add a new book</h2>
-        <input type="text" name="title" class="title" id="title" placeholder="Title">
-        <input type="text" id="author" name="author" class="author" placeholder="Author">
-        <div class="btn">
-          <div class="remove"><button type="submit" class="add"> Add</button></div>
+            <div class="btn">
+              <button type="submit" class="add">Add</button>
+            </div>
+          </form>
+        </section>
+
+        <section class="page" id="contact">
+          <h2 class="contact-head">Contact Information</h2>
+          <p class="contact-description">
+            Got any questions? or would love to drop a message/feedback?
+            <br />You can reach out to us:
+          </p>
+          <ul class="contact-icons">
+            <li>
+              <a href="email"
+                ><i class="fa fa-envelope" aria-hidden="true"></i
+                >email</a
+              >
+            </li>
+            <li>
+              <a href="number"
+                ><i class="fa fa-phone-square" aria-hidden="true"></i
+                >number</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-map-marker" aria-hidden="true"></i>address </a
+              >
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
+        <div class="footer">
+          <p class="copyright">Copyright &copy; 2022 All Rights Reserved</p>
         </div>
-      </form>
-    </main>
-  </div>
-  <script src="main.js" type="module"></script>
-
-</body>
-
+      </footer>
+    </div>
+    <script src="main.js" type="module"></script>
+  </body>
 </html>
