@@ -1,4 +1,3 @@
-
 import { DateTime } from './luxon.js';
 
 const dateDisplay = document.querySelector('.date');

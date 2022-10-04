@@ -36,9 +36,6 @@ document.querySelector('.books').addEventListener('click', (e) => {
   }
 });
 
-// const date = document.getElementsByClassName('date')[0];
-// date.innerText = ` Date: ${new Date().getDate()} | ${new Date().getMonth()} | ${new Date().getFullYear()}`;
-
 const app = {
   pages: [],
   show: new Event('show'),
