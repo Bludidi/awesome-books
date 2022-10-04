@@ -1,5 +1,6 @@
 import Store from './modules/store.js';
 import UI from './modules/ui.js';
+import './modules/date.js';
 
 class Book {
   constructor(title, author) {
@@ -34,9 +35,6 @@ document.querySelector('.books').addEventListener('click', (e) => {
     UI.deleteBook(e.target);
   }
 });
-
-const date = document.getElementsByClassName('date')[0];
-date.innerText = ` Date: ${new Date().getDate()} | ${new Date().getMonth()} | ${new Date().getFullYear()}`;
 
 const app = {
   pages: [],
