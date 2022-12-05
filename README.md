@@ -40,8 +40,8 @@ Any browser
 
 👤 **Brian Ludidi** 
 
-- GitHub [@Bludidi] (https://github.com/Bludidi)
-- LinkedIn [Brian Ludidi](www.linkedin.com/in/brian-ludidi-92754174) 
+- [GitHub](https://github.com/Bludidi)
+- [LinkedIn](www.linkedin.com/in/brian-ludidi-92754174) 
 
 ## 🤝 Contributing
 
