@@ -14,7 +14,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link]()
+There is no live link 
 
 
 ## Getting Started
